@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Title</title>
+  </head>
+  <body>
+    <ul>
+      <% for (const listItem of listItems) { %>
+        <li><%= listItem %></li>
+      <% } %>
+    </ul>
+    <form action="/send">
+      <input toukou3="toukou"/>
+      <button>投稿</button>
+    </form>
+  </body>
+</html>
